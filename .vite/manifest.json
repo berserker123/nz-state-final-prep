@@ -1,6 +1,6 @@
 {
-  "_client-fBwYuZgL.js": {
-    "file": "assets/client-fBwYuZgL.js",
+  "_client-B1Ohb6Pd.js": {
+    "file": "assets/client-B1Ohb6Pd.js",
     "name": "client",
     "isDynamicEntry": true,
     "imports": [
@@ -8,15 +8,15 @@
     ]
   },
   "index.html": {
-    "file": "assets/app-CTVxgoUe.js",
+    "file": "assets/app-DnyP3EcY.js",
     "name": "app",
     "src": "index.html",
     "isEntry": true,
     "dynamicImports": [
-      "_client-fBwYuZgL.js"
+      "_client-B1Ohb6Pd.js"
     ],
     "css": [
-      "assets/app-Db3C-lIg.css"
+      "assets/app-BdkSQZpA.css"
     ],
     "assets": [
       "assets/plus-jakarta-sans-latin-400-normal-Dhut76fR.woff2",
@@ -29,6 +29,16 @@
       "assets/plus-jakarta-sans-latin-700-normal-DqEcQeE5.woff",
       "assets/plus-jakarta-sans-latin-800-normal-CusIZhrK.woff2",
       "assets/plus-jakarta-sans-latin-800-normal-BRNHt2w0.woff",
+      "assets/inter-tight-latin-500-normal-BFXNXuvF.woff2",
+      "assets/inter-tight-latin-500-normal-pobXraBK.woff",
+      "assets/inter-tight-latin-600-normal-BgSTtRxb.woff2",
+      "assets/inter-tight-latin-600-normal-D7bG6gX1.woff",
+      "assets/inter-tight-latin-700-normal-BZKd_v_8.woff2",
+      "assets/inter-tight-latin-700-normal-DvYAVZQd.woff",
+      "assets/inter-tight-latin-800-normal-CRGCHRPv.woff2",
+      "assets/inter-tight-latin-800-normal-D2te1T7i.woff",
+      "assets/inter-tight-latin-900-normal-CsycwHi3.woff2",
+      "assets/inter-tight-latin-900-normal-D-ilywrK.woff",
       "assets/jetbrains-mono-latin-400-normal-V6pRDFza.woff2",
       "assets/jetbrains-mono-latin-400-normal-6-qcROiO.woff",
       "assets/jetbrains-mono-latin-500-normal-BWZEU5yA.woff2",
@@ -38,6 +48,46 @@
       "assets/jetbrains-mono-latin-700-normal-BYuf6tUa.woff2",
       "assets/jetbrains-mono-latin-700-normal-D3wTyLJW.woff"
     ]
+  },
+  "node_modules/@fontsource/inter-tight/files/inter-tight-latin-500-normal.woff": {
+    "file": "assets/inter-tight-latin-500-normal-pobXraBK.woff",
+    "src": "node_modules/@fontsource/inter-tight/files/inter-tight-latin-500-normal.woff"
+  },
+  "node_modules/@fontsource/inter-tight/files/inter-tight-latin-500-normal.woff2": {
+    "file": "assets/inter-tight-latin-500-normal-BFXNXuvF.woff2",
+    "src": "node_modules/@fontsource/inter-tight/files/inter-tight-latin-500-normal.woff2"
+  },
+  "node_modules/@fontsource/inter-tight/files/inter-tight-latin-600-normal.woff": {
+    "file": "assets/inter-tight-latin-600-normal-D7bG6gX1.woff",
+    "src": "node_modules/@fontsource/inter-tight/files/inter-tight-latin-600-normal.woff"
+  },
+  "node_modules/@fontsource/inter-tight/files/inter-tight-latin-600-normal.woff2": {
+    "file": "assets/inter-tight-latin-600-normal-BgSTtRxb.woff2",
+    "src": "node_modules/@fontsource/inter-tight/files/inter-tight-latin-600-normal.woff2"
+  },
+  "node_modules/@fontsource/inter-tight/files/inter-tight-latin-700-normal.woff": {
+    "file": "assets/inter-tight-latin-700-normal-DvYAVZQd.woff",
+    "src": "node_modules/@fontsource/inter-tight/files/inter-tight-latin-700-normal.woff"
+  },
+  "node_modules/@fontsource/inter-tight/files/inter-tight-latin-700-normal.woff2": {
+    "file": "assets/inter-tight-latin-700-normal-BZKd_v_8.woff2",
+    "src": "node_modules/@fontsource/inter-tight/files/inter-tight-latin-700-normal.woff2"
+  },
+  "node_modules/@fontsource/inter-tight/files/inter-tight-latin-800-normal.woff": {
+    "file": "assets/inter-tight-latin-800-normal-D2te1T7i.woff",
+    "src": "node_modules/@fontsource/inter-tight/files/inter-tight-latin-800-normal.woff"
+  },
+  "node_modules/@fontsource/inter-tight/files/inter-tight-latin-800-normal.woff2": {
+    "file": "assets/inter-tight-latin-800-normal-CRGCHRPv.woff2",
+    "src": "node_modules/@fontsource/inter-tight/files/inter-tight-latin-800-normal.woff2"
+  },
+  "node_modules/@fontsource/inter-tight/files/inter-tight-latin-900-normal.woff": {
+    "file": "assets/inter-tight-latin-900-normal-D-ilywrK.woff",
+    "src": "node_modules/@fontsource/inter-tight/files/inter-tight-latin-900-normal.woff"
+  },
+  "node_modules/@fontsource/inter-tight/files/inter-tight-latin-900-normal.woff2": {
+    "file": "assets/inter-tight-latin-900-normal-CsycwHi3.woff2",
+    "src": "node_modules/@fontsource/inter-tight/files/inter-tight-latin-900-normal.woff2"
   },
   "node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-400-normal.woff": {
     "file": "assets/jetbrains-mono-latin-400-normal-6-qcROiO.woff",
