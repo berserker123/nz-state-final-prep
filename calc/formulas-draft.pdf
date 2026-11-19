@@ -1,0 +1,185 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 4912 >>
+stream
+BT
+/F2 9 Tf
+1 0 0 1 36 796.89 Tm
+(MEDICATION CALCULATION FORMULA SHEET) Tj
+1 0 0 1 36 785.91 Tm
+(DRAFT - PENDING RN REVIEW. Not published. Not checked by a registered nurse.) Tj
+/F1 9 Tf
+1 0 0 1 36 774.93 Tm
+(Same calculation steps and rounding as the Part A question generator. Keep full precision; round) Tj
+1 0 0 1 36 763.95 Tm
+(once, at the final step. Numbers are arithmetic practice only, not dosing advice.) Tj
+1 0 0 1 36 752.97 Tm
+/F2 9 Tf
+1 0 0 1 36 741.99 Tm
+(FORMULAS) Tj
+1 0 0 1 36 731.01 Tm
+(Metric unit conversion  [Part A A1]) Tj
+/F1 9 Tf
+1 0 0 1 36 720.03 Tm
+(  y = x × k) Tj
+1 0 0 1 36 709.05 Tm
+(  x = starting amount; k = 1000 or 1/1000 \(mcg<->mg, mg<->g, mL<->L\)) Tj
+1 0 0 1 36 698.07 Tm
+(  Rounding: Exact; no rounding) Tj
+/F2 9 Tf
+1 0 0 1 36 687.09 Tm
+(Oral liquid dose volume  [Part A A3]) Tj
+/F1 9 Tf
+1 0 0 1 36 676.11 Tm
+(  v = D × V ÷ S) Tj
+1 0 0 1 36 665.13 Tm
+(  D = prescribed dose \(mg\); S = stock strength \(mg\); V = stock volume \(mL\); v = volume to give) Tj
+1 0 0 1 36 654.15 Tm
+(  \(mL\)) Tj
+1 0 0 1 36 643.17 Tm
+(  Rounding: 1 decimal place at the final step \(half-up\)) Tj
+/F2 9 Tf
+1 0 0 1 36 632.19 Tm
+(Weight-based dose volume  [Part A A5]) Tj
+/F1 9 Tf
+1 0 0 1 36 621.21 Tm
+(  v = W × r ÷ \(N × C\)) Tj
+1 0 0 1 36 610.23 Tm
+(  W = weight \(kg\); r = ordered rate \(mg/kg/day\); N = doses per day; C = concentration \(mg/mL\); v) Tj
+1 0 0 1 36 599.25 Tm
+(  = volume per dose \(mL\)) Tj
+1 0 0 1 36 588.27 Tm
+(  Rounding: 1 decimal place at the final step \(half-up\)) Tj
+/F2 9 Tf
+1 0 0 1 36 577.29 Tm
+(Infusion pump rate  [Part A A8]) Tj
+/F1 9 Tf
+1 0 0 1 36 566.31 Tm
+(  R = V ÷ t) Tj
+1 0 0 1 36 555.33 Tm
+(  V = total volume \(mL\); t = time \(hours\); R = pump rate \(mL/h\)) Tj
+1 0 0 1 36 544.35 Tm
+(  Rounding: Part A items use volumes that divide exactly, so the rate is a whole number: no) Tj
+1 0 0 1 36 533.37 Tm
+(  rounding step) Tj
+1 0 0 1 36 522.39 Tm
+/F2 9 Tf
+1 0 0 1 36 511.41 Tm
+(WORKED EXAMPLES) Tj
+/F1 9 Tf
+1 0 0 1 36 500.43 Tm
+(Metric unit conversion 1: Convert 75 mcg to mg.) Tj
+/F2 9 Tf
+1 0 0 1 36 489.45 Tm
+(  75 × 1 ÷ 1000 = 0.075 mg  =>  0.075 mg) Tj
+/F1 9 Tf
+1 0 0 1 36 478.47 Tm
+(Metric unit conversion 2: Convert 4 g to mg.) Tj
+/F2 9 Tf
+1 0 0 1 36 467.49 Tm
+(  4 × 1000 = 4000 mg  =>  4000 mg) Tj
+/F1 9 Tf
+1 0 0 1 36 456.51 Tm
+(Oral liquid dose volume 1: Stock is paracetamol oral suspension 120 mg in 5 mL \(strength as) Tj
+1 0 0 1 36 445.53 Tm
+(listed in the Junior Parapaed data sheet\). The dose of 180 mg is chosen for the arithmetic only.) Tj
+/F2 9 Tf
+1 0 0 1 36 434.55 Tm
+(  180 × 5 ÷ 120 = 7.5 -> 7.5 mL  =>  7.5 mL) Tj
+/F1 9 Tf
+1 0 0 1 36 423.57 Tm
+(Oral liquid dose volume 2: Same stock strength, dose 150 mg. This one shows half-up rounding at) Tj
+1 0 0 1 36 412.59 Tm
+(the final step.) Tj
+/F2 9 Tf
+1 0 0 1 36 401.61 Tm
+(  150 × 5 ÷ 120 = 6.25 -> 6.3 mL  =>  6.3 mL) Tj
+/F1 9 Tf
+1 0 0 1 36 390.63 Tm
+(Weight-based dose volume 1: Fictional medicine: 24 mg/mL, ordered 60 mg/kg/day in 4 equal doses,) Tj
+1 0 0 1 36 379.65 Tm
+(child weighs 12 kg. Rates here are made up for the arithmetic.) Tj
+/F2 9 Tf
+1 0 0 1 36 368.67 Tm
+(  12 × 60 ÷ \(4 × 24\) = 720 ÷ 96 = 7.5 -> 7.5 mL  =>  7.5 mL) Tj
+/F1 9 Tf
+1 0 0 1 36 357.69 Tm
+(Infusion pump rate 1: Infuse 1000 mL of IV fluid over 8 hours by volumetric pump.) Tj
+/F2 9 Tf
+1 0 0 1 36 346.71 Tm
+(  1000 ÷ 8 = 125 -> 125 mL/h  =>  125 mL/h) Tj
+/F1 9 Tf
+1 0 0 1 36 335.73 Tm
+(Infusion pump rate 2: Infuse 600 mL of IV fluid over 4 hours by volumetric pump.) Tj
+/F2 9 Tf
+1 0 0 1 36 324.75 Tm
+(  600 ÷ 4 = 150 -> 150 mL/h  =>  150 mL/h) Tj
+/F1 9 Tf
+1 0 0 1 36 313.77 Tm
+/F2 9 Tf
+1 0 0 1 36 302.79 Tm
+(SOURCE \(product strength in the dose volume examples only\)) Tj
+/F1 9 Tf
+1 0 0 1 36 291.81 Tm
+(Junior Parapaed \(paracetamol 120 mg/5 mL oral suspension\) data sheet, Medsafe. Product strength) Tj
+1 0 0 1 36 280.83 Tm
+(used in the dose volume examples only. Version/as-of 2025-08-01.) Tj
+1 0 0 1 36 269.85 Tm
+(  https://www.medsafe.govt.nz/profs/datasheet/J/JuniorParapaedSusp.pdf) Tj
+1 0 0 1 36 258.87 Tm
+(Not included yet: tablet counts, drops per minute, NZ safe-writing rules for doses \(need a) Tj
+1 0 0 1 36 247.89 Tm
+(registered primary source\).) Tj
+1 0 0 1 36 236.91 Tm
+1 0 0 1 36 225.93 Tm
+(Independent educational study tool not affiliated with, endorsed by, or sponsored by the Nursing) Tj
+1 0 0 1 36 214.95 Tm
+(Council of New Zealand \(NCNZ\).) Tj
+1 0 0 1 36 203.97 Tm
+(Strictly for academic exam preparation; never use for real clinical patient dosing or ward) Tj
+1 0 0 1 36 192.99 Tm
+(decisions.) Tj
+1 0 0 1 36 182.01 Tm
+(In clinical settings, check medicine information against the New Zealand Formulary \(NZF\) and) Tj
+1 0 0 1 36 171.03 Tm
+(local policy. Also not affiliated with Health New Zealand | Te Whatu Ora or any tertiary nursing) Tj
+1 0 0 1 36 160.05 Tm
+(institution.) Tj
+1 0 0 1 36 149.07 Tm
+(Review status: AI-drafted, pending RN review. Last checked 2026-11-19.) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Title (Medication calculation formula sheet - DRAFT, pending RN review) /Producer (nz-state-final-prep build script) >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000257 00000 n 
+0000000352 00000 n 
+0000000452 00000 n 
+0000005416 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R /Info 7 0 R >>
+startxref
+5555
+%%EOF
