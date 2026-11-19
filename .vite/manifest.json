@@ -1,6 +1,6 @@
 {
-  "_client-DicNMZLx.js": {
-    "file": "assets/client-DicNMZLx.js",
+  "_client-BbY0Zp-a.js": {
+    "file": "assets/client-BbY0Zp-a.js",
     "name": "client",
     "isDynamicEntry": true,
     "imports": [
@@ -8,15 +8,15 @@
     ]
   },
   "index.html": {
-    "file": "assets/app-BDy9DM7u.js",
+    "file": "assets/app-Dn52Rbw2.js",
     "name": "app",
     "src": "index.html",
     "isEntry": true,
     "dynamicImports": [
-      "_client-DicNMZLx.js"
+      "_client-BbY0Zp-a.js"
     ],
     "css": [
-      "assets/app-DZK-RpEu.css"
+      "assets/app-CMxTmH94.css"
     ],
     "assets": [
       "assets/plus-jakarta-sans-latin-400-normal-Dhut76fR.woff2",
