@@ -73,6 +73,9 @@
     <loc>https://statefinalhub.com/practice/pou/6/</loc>
   </url>
   <url>
+    <loc>https://statefinalhub.com/practice/vocab/</loc>
+  </url>
+  <url>
     <loc>https://statefinalhub.com/privacy/</loc>
     <xhtml:link rel="alternate" hreflang="en-NZ" href="https://statefinalhub.com/privacy/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://statefinalhub.com/zh/privacy/"/>
@@ -128,8 +131,5 @@
     <xhtml:link rel="alternate" hreflang="en-NZ" href="https://statefinalhub.com/privacy/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://statefinalhub.com/zh/privacy/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://statefinalhub.com/privacy/"/>
-  </url>
-  <url>
-    <loc>https://statefinalhub.com/practice/vocab/</loc>
   </url>
 </urlset>
