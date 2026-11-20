@@ -129,4 +129,7 @@
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://statefinalhub.com/zh/privacy/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://statefinalhub.com/privacy/"/>
   </url>
+  <url>
+    <loc>https://statefinalhub.com/practice/vocab/</loc>
+  </url>
 </urlset>
