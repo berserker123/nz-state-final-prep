@@ -91,10 +91,19 @@ td.n{white-space:nowrap;font-variant-numeric:tabular-nums}
 .stack thead{display:none}.stack tr{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:12px;row-gap:2px;padding:10px 0;border-bottom:1px solid var(--line)}
 .stack td{border:0;padding:0}.stack td:nth-child(1){grid-area:1/1}.stack td:nth-child(2){grid-area:2/1;color:var(--mute)}
 .stack td:nth-child(3){grid-area:1/2;text-align:end}.stack td:nth-child(4){grid-area:2/2;text-align:end;color:var(--mute)}.keys{display:none}}
+.study{display:grid;gap:16px}
+.guide{order:-1;border:1.5px solid var(--line);border-radius:16px;background:var(--card);padding:4px 18px;font-size:15px;line-height:1.5}
+.guide summary{cursor:pointer;min-height:44px;display:flex;align-items:center;font-weight:700;font-size:16px;color:var(--blue)}
+.guide ol{margin:4px 0 10px;padding-left:20px}.guide li{margin:0 0 8px}
+.guide .zh-l{display:block;color:var(--mute);font-size:14px}
+.guide table{font-size:14px;margin:2px 0 6px}.guide td{padding:4px 6px 4px 0;border:0}.guide td:first-child{font-weight:700;white-space:nowrap}
+.guide .note{border-top:1px solid var(--line);padding-top:10px;margin:8px 0 12px;color:var(--mute);font-size:14px}
+.guide kbd{font:600 12px ui-monospace,monospace;border:1px solid var(--line);border-radius:5px;padding:1px 5px}
+@media(min-width:900px){.band.wide{max-width:1200px}.study{grid-template-columns:minmax(0,1fr) 300px;gap:28px;align-items:start}.guide{order:0;position:sticky;top:16px}.guide summary{pointer-events:none}.guide summary::marker{content:""}}
 </style>
 </head>
 <body>
-<main class="band">
+<main class="band wide">
  <a class="back-link" href="/">← StateFinalHub</a>
  <header>
   <h1>Nurse vocab <span>by body system</span></h1>
@@ -103,8 +112,27 @@ td.n{white-space:nowrap;font-variant-numeric:tabular-nums}
   </div>
  </header>
  <div class="chips" id="chips" role="group" aria-label="Body system"></div>
+<div class="study">
  <section id="stage" aria-live="polite"></section>
- <p class="keys">Space or Enter flips · 1 Again · 2 Hard · 3 Good · 4 Easy</p>
+ <aside class="guide" aria-label="How to use">
+  <details open id="guideBox">
+   <summary>How to use · 怎么用</summary>
+   <ol>
+    <li>Read the word and say what it means.<span class="zh-l">看单词，先自己说出意思。</span></li>
+    <li>Flip: tap the card or <b>Show answer</b> (<kbd>Space</kbd> / <kbd>Enter</kbd>).<span class="zh-l">翻面：点卡片或 Show answer。</span></li>
+    <li>Rate how well you knew it. <b>Rating takes you to the next card.</b><span class="zh-l">按记住的程度评分，评分后自动进入下一张。</span></li>
+   </ol>
+   <table><tbody>
+    <tr><td>Again <kbd>1</kbd></td><td>Forgot · 没想起来 — back in about 1 min</td></tr>
+    <tr><td>Hard <kbd>2</kbd></td><td>Slow · 很费劲 — back in a few min</td></tr>
+    <tr><td>Good <kbd>3</kbd></td><td>Knew it · 想起来了 — gaps get longer</td></tr>
+    <tr><td>Easy <kbd>4</kbd></td><td>Instant · 一眼认出 — back in days</td></tr>
+   </tbody></table>
+   <p class="note">There is no “next” button: your rating decides when each card comes back. The small time under each button shows when.<span class="zh-l">没有“下一张”按钮：评分决定这张卡什么时候再出现，按钮下的小字就是时间。</span></p>
+   <p class="note">Use the body-system buttons to study one group. Progress is saved in this browser only.<span class="zh-l">点上方的身体系统按钮可只练一类。进度只保存在本浏览器。</span></p>
+  </details>
+ </aside>
+</div>
  <h2 class="list">Deck</h2>
  <table class="stack"><thead><tr><th>Term</th><th>System</th><th>Status</th><th>Next review</th></tr></thead><tbody id="rows"></tbody></table>
  <div class="foot">
@@ -2238,6 +2266,7 @@ document.addEventListener("keydown",e=>{
  if(e.key===" "||e.key==="Enter"){if(!flipped){e.preventDefault();flip()}}
  else if(["1","2","3","4"].includes(e.key))rate(+e.key);
 });
+const guideBox=document.getElementById("guideBox");if(guideBox&&matchMedia("(max-width:899px)").matches&&localStorage.getItem("nurseVocabGuideSeen"))guideBox.open=false;try{localStorage.setItem("nurseVocabGuideSeen","1")}catch(e){}
 setInterval(()=>{if(!flipped)render()},60000);
 render();
 }
