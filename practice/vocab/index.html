@@ -7,9 +7,15 @@
 <meta name="description" content="Free nursing vocabulary flashcards by body system, with spaced repetition, for NZ State Final study.">
 <meta name="theme-color" content="#0F766E">
 <link rel="canonical" href="https://statefinalhub.com/practice/vocab/">
+<meta property="og:title" content="Nurse Vocab Cards | StateFinalHub">
+<meta property="og:description" content="Free nursing vocabulary flashcards by body system, with spaced repetition, for NZ State Final study.">
+<meta property="og:url" content="https://statefinalhub.com/practice/vocab/">
+<meta property="og:image" content="https://statefinalhub.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://statefinalhub.com/og-image.png">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap">
 <style>
 /* StateFinalHub vocab cards: standalone page (no React), Aotearoa Clinical Calm palette.
    VOICE: calm, clinical, encouraging — a study tool, not a poster
@@ -82,8 +88,9 @@ td.n{white-space:nowrap;font-variant-numeric:tabular-nums}
 .confirm{display:inline-flex;gap:8px;align-items:center}
 @media (prefers-reduced-motion:reduce){.card{transition:none}}
 @media(max-width:600px){.card,.done{min-height:400px}.rate{grid-template-columns:repeat(2,minmax(0,1fr))}.stats{gap:12px}table{font-size:13px}
-.stack thead{display:none}.stack tr{display:grid;padding-block:10px}.stack td{display:flow-root;border:0;padding:3px 0;padding-inline-start:6.5em;text-align:start}
-.stack td::before{content:attr(data-l);float:inline-start;width:6em;margin-inline-start:-6.5em;color:var(--mute)}.stack td:empty{display:none}.keys{display:none}}
+.stack thead{display:none}.stack tr{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:12px;row-gap:2px;padding:10px 0;border-bottom:1px solid var(--line)}
+.stack td{border:0;padding:0}.stack td:nth-child(1){grid-area:1/1}.stack td:nth-child(2){grid-area:2/1;color:var(--mute)}
+.stack td:nth-child(3){grid-area:1/2;text-align:end}.stack td:nth-child(4){grid-area:2/2;text-align:end;color:var(--mute)}.keys{display:none}}
 </style>
 </head>
 <body>
