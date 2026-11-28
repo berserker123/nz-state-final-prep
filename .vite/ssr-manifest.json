@@ -60,7 +60,7 @@
     "/assets/jetbrains-mono-latin-700-normal-D3wTyLJW.woff"
   ],
   "\u0000F:/Bo/nz-state-final-prep/node_modules/react-dom/client.js?commonjs-exports": [
-    "/assets/client-BnvgMI15.js"
+    "/assets/client-BlZd-D5t.js"
   ],
   "\u0000F:/Bo/nz-state-final-prep/node_modules/react-dom/index.js?commonjs-module": [
     "/assets/plus-jakarta-sans-latin-400-normal-Dhut76fR.woff2",
@@ -2133,7 +2133,7 @@
     "/assets/jetbrains-mono-latin-700-normal-D3wTyLJW.woff"
   ],
   "node_modules/react-dom/client.js": [
-    "/assets/client-BnvgMI15.js"
+    "/assets/client-BlZd-D5t.js"
   ],
   "node_modules/react-dom/index.js": [
     "/assets/plus-jakarta-sans-latin-400-normal-Dhut76fR.woff2",
@@ -4895,6 +4895,36 @@
     "/assets/jetbrains-mono-latin-700-normal-BYuf6tUa.woff2",
     "/assets/jetbrains-mono-latin-700-normal-D3wTyLJW.woff"
   ],
+  "src/components/FeedbackPage.tsx": [
+    "/assets/plus-jakarta-sans-latin-400-normal-Dhut76fR.woff2",
+    "/assets/plus-jakarta-sans-latin-400-normal-BDKaGhyp.woff",
+    "/assets/plus-jakarta-sans-latin-500-normal-Bf-nb4oT.woff2",
+    "/assets/plus-jakarta-sans-latin-500-normal-DYtqi0QS.woff",
+    "/assets/plus-jakarta-sans-latin-600-normal-DLTa1BUW.woff2",
+    "/assets/plus-jakarta-sans-latin-600-normal-BR_Ojra4.woff",
+    "/assets/plus-jakarta-sans-latin-700-normal-CfpNZvy6.woff2",
+    "/assets/plus-jakarta-sans-latin-700-normal-DqEcQeE5.woff",
+    "/assets/plus-jakarta-sans-latin-800-normal-CusIZhrK.woff2",
+    "/assets/plus-jakarta-sans-latin-800-normal-BRNHt2w0.woff",
+    "/assets/inter-tight-latin-500-normal-BFXNXuvF.woff2",
+    "/assets/inter-tight-latin-500-normal-pobXraBK.woff",
+    "/assets/inter-tight-latin-600-normal-BgSTtRxb.woff2",
+    "/assets/inter-tight-latin-600-normal-D7bG6gX1.woff",
+    "/assets/inter-tight-latin-700-normal-BZKd_v_8.woff2",
+    "/assets/inter-tight-latin-700-normal-DvYAVZQd.woff",
+    "/assets/inter-tight-latin-800-normal-CRGCHRPv.woff2",
+    "/assets/inter-tight-latin-800-normal-D2te1T7i.woff",
+    "/assets/inter-tight-latin-900-normal-CsycwHi3.woff2",
+    "/assets/inter-tight-latin-900-normal-D-ilywrK.woff",
+    "/assets/jetbrains-mono-latin-400-normal-V6pRDFza.woff2",
+    "/assets/jetbrains-mono-latin-400-normal-6-qcROiO.woff",
+    "/assets/jetbrains-mono-latin-500-normal-BWZEU5yA.woff2",
+    "/assets/jetbrains-mono-latin-500-normal-CJOVTJB7.woff",
+    "/assets/jetbrains-mono-latin-600-normal-C8RAYTDA.woff2",
+    "/assets/jetbrains-mono-latin-600-normal-BfsvjouI.woff",
+    "/assets/jetbrains-mono-latin-700-normal-BYuf6tUa.woff2",
+    "/assets/jetbrains-mono-latin-700-normal-D3wTyLJW.woff"
+  ],
   "src/components/HighRiskNotice.tsx": [
     "/assets/plus-jakarta-sans-latin-400-normal-Dhut76fR.woff2",
     "/assets/plus-jakarta-sans-latin-400-normal-BDKaGhyp.woff",
@@ -6336,6 +6366,36 @@
     "/assets/jetbrains-mono-latin-700-normal-D3wTyLJW.woff"
   ],
   "src/utils/route.ts": [
+    "/assets/plus-jakarta-sans-latin-400-normal-Dhut76fR.woff2",
+    "/assets/plus-jakarta-sans-latin-400-normal-BDKaGhyp.woff",
+    "/assets/plus-jakarta-sans-latin-500-normal-Bf-nb4oT.woff2",
+    "/assets/plus-jakarta-sans-latin-500-normal-DYtqi0QS.woff",
+    "/assets/plus-jakarta-sans-latin-600-normal-DLTa1BUW.woff2",
+    "/assets/plus-jakarta-sans-latin-600-normal-BR_Ojra4.woff",
+    "/assets/plus-jakarta-sans-latin-700-normal-CfpNZvy6.woff2",
+    "/assets/plus-jakarta-sans-latin-700-normal-DqEcQeE5.woff",
+    "/assets/plus-jakarta-sans-latin-800-normal-CusIZhrK.woff2",
+    "/assets/plus-jakarta-sans-latin-800-normal-BRNHt2w0.woff",
+    "/assets/inter-tight-latin-500-normal-BFXNXuvF.woff2",
+    "/assets/inter-tight-latin-500-normal-pobXraBK.woff",
+    "/assets/inter-tight-latin-600-normal-BgSTtRxb.woff2",
+    "/assets/inter-tight-latin-600-normal-D7bG6gX1.woff",
+    "/assets/inter-tight-latin-700-normal-BZKd_v_8.woff2",
+    "/assets/inter-tight-latin-700-normal-DvYAVZQd.woff",
+    "/assets/inter-tight-latin-800-normal-CRGCHRPv.woff2",
+    "/assets/inter-tight-latin-800-normal-D2te1T7i.woff",
+    "/assets/inter-tight-latin-900-normal-CsycwHi3.woff2",
+    "/assets/inter-tight-latin-900-normal-D-ilywrK.woff",
+    "/assets/jetbrains-mono-latin-400-normal-V6pRDFza.woff2",
+    "/assets/jetbrains-mono-latin-400-normal-6-qcROiO.woff",
+    "/assets/jetbrains-mono-latin-500-normal-BWZEU5yA.woff2",
+    "/assets/jetbrains-mono-latin-500-normal-CJOVTJB7.woff",
+    "/assets/jetbrains-mono-latin-600-normal-C8RAYTDA.woff2",
+    "/assets/jetbrains-mono-latin-600-normal-BfsvjouI.woff",
+    "/assets/jetbrains-mono-latin-700-normal-BYuf6tUa.woff2",
+    "/assets/jetbrains-mono-latin-700-normal-D3wTyLJW.woff"
+  ],
+  "src/utils/siteFeedback.ts": [
     "/assets/plus-jakarta-sans-latin-400-normal-Dhut76fR.woff2",
     "/assets/plus-jakarta-sans-latin-400-normal-BDKaGhyp.woff",
     "/assets/plus-jakarta-sans-latin-500-normal-Bf-nb4oT.woff2",

@@ -28,6 +28,12 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://statefinalhub.com/english/pain-assessment/"/>
   </url>
   <url>
+    <loc>https://statefinalhub.com/feedback/</loc>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://statefinalhub.com/feedback/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://statefinalhub.com/zh/feedback/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://statefinalhub.com/feedback/"/>
+  </url>
+  <url>
     <loc>https://statefinalhub.com/law/hdc-code/</loc>
     <xhtml:link rel="alternate" hreflang="en-NZ" href="https://statefinalhub.com/law/hdc-code/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://statefinalhub.com/zh/law/hdc-code/"/>
@@ -107,6 +113,12 @@
     <xhtml:link rel="alternate" hreflang="en-NZ" href="https://statefinalhub.com/english/pain-assessment/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://statefinalhub.com/zh/english/pain-assessment/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://statefinalhub.com/english/pain-assessment/"/>
+  </url>
+  <url>
+    <loc>https://statefinalhub.com/zh/feedback/</loc>
+    <xhtml:link rel="alternate" hreflang="en-NZ" href="https://statefinalhub.com/feedback/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://statefinalhub.com/zh/feedback/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://statefinalhub.com/feedback/"/>
   </url>
   <url>
     <loc>https://statefinalhub.com/zh/law/hdc-code/</loc>
